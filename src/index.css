@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+}
+
+input::placeholder {
+   color: var(---, #2F2F2F);
+   font-family: "Montserrat";
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   opacity: 0.6;
+}
+
+input[type="checkbox"]:checked {
+   background-color: #2F2F2F;
+}
+
+.bg-switch-light {
+   background: var(---, #FFF);
+}
+
+.bg-active-light {
+   background: var(---, #2F2F2F);
+}
