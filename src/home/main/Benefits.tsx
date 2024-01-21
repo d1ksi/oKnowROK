@@ -31,20 +31,23 @@ const benefit: den[] = [
 
 const Benefits: React.FC = () => {
   return (
-    <div className="mb-36 px-24">
+    <div className="mb-36 px-24 xl:px-10">
       <h2 className="z-10 font-montserrat text-5xl font-medium text-[#2F2F2F]">
         Преимущества iKnowROS.app
       </h2>
       <div className="flex justify-between w-full mt-16">
         {benefit.map((item, index) => (
-          <div key={index} className="flex flex-col max-w-[415px]">
+          <div
+            key={index}
+            className="flex flex-col max-w-[415px] xl:max-w-[360px]"
+          >
             <div className="z-10 flex justify-between items-center rounded-[14px] p-5 bg-[#2F2F2F] h-[77px]">
-              <p className="font-montserrat text-[28px] font-extrabold text-white">
+              <p className="font-montserrat text-[28px] font-extrabold text-white xl:text-[24px]">
                 {item.title}
               </p>
               {item.icon ? item.icon : null}
             </div>
-            <div className="z-10 mt-4 p-5 min-h-[163px] bg-[#2F2F2F] rounded-[14px]">
+            <div className="z-10 mt-4 p-5 min-h-[163px] bg-[#2F2F2F] rounded-[14px]  xl:min-h-[200px]">
               <p className="font-montserrat text-xl font-normal text-white">
                 {item.text}
               </p>

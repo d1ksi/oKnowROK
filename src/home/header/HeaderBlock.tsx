@@ -3,7 +3,7 @@ import Menu from "./Menu";
 import { Link } from "react-router-dom";
 const HeaderBlock: React.FC = () => {
   return (
-    <header className="flex my-[60px] mx-[100px] justify-between items-center">
+    <header className="flex my-[60px] mx-[100px] justify-between items-center xl:mx-10">
       <Menu />
       <div className="flex items-center">
         <LightSwitch />

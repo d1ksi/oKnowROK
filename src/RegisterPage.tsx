@@ -8,7 +8,7 @@ const RegisterPage: React.FC = () => {
     setPassVisible((prevVisible) => !prevVisible);
   };
   return (
-    <div className="py-[100px] px-[60px] overflow-hidden">
+    <div className="py-[40px] px-[60px] overflow-hidden">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="203"
@@ -67,26 +67,26 @@ const RegisterPage: React.FC = () => {
       </svg>
       <div className="flex justify-between">
         <div>
-          <h1 className="mt-12 font-extrabold 2F2F2F text-5xl font-montserrat">
+          <h1 className="mt-10 font-extrabold 2F2F2F text-5xl font-montserrat">
             Регистрация
           </h1>
-          <div className="flex mt-16 z-10">
-            <div>
+          <div className="flex mt-10 z-10">
+            <div className="flex flex-col mr-5">
               <p className="text-black font-normal text-lg leading-1 font-montserrat">
                 Необходимые данные
               </p>
               <input
-                className="mt-8 p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2"
+                className="mt-8 p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2 xl:w-[400px]"
                 type="text"
                 placeholder="Введите ФИО"
               />
               <input
-                className="mt-8 p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2"
+                className="mt-8 p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2 xl:w-[400px]"
                 type="number"
                 placeholder="Введите номер телефона"
               />
               <input
-                className="mt-8 p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2"
+                className="mt-8 p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2 xl:w-[400px]"
                 type="text"
                 placeholder="Введите электронную почту"
               />
@@ -97,7 +97,7 @@ const RegisterPage: React.FC = () => {
               </p>
               <div className="relative flex items-center mt-8">
                 <input
-                  className="p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2"
+                  className="p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2 xl:w-[400px]"
                   type={passVisible ? "text" : "password"}
                   placeholder="Введите пароль"
                 />
@@ -121,7 +121,7 @@ const RegisterPage: React.FC = () => {
               </div>
               <div className="relative flex items-center mt-8">
                 <input
-                  className="p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2"
+                  className="p-6 h-20 w-[500px] rounded-lg border-[2F2F2F] border-2 xl:w-[400px]"
                   type="text"
                   placeholder="Промокод"
                 />
@@ -138,7 +138,7 @@ const RegisterPage: React.FC = () => {
               background:
                 "linear-gradient(90deg, #E81CFF 5.65%, #E81CFF 5.66%, #45CAFF 97.49%)",
             }}
-            className="cursor-pointer mt-[125px] py-5 px-10 rounded-lg text-2xl leading-1 text-white font-montserrat"
+            className="cursor-pointer mt-[40px] py-5 px-10 rounded-lg text-2xl leading-1 text-white font-montserrat"
             type="submit"
             value="Зарегистрироваться"
           />
@@ -153,7 +153,7 @@ const RegisterPage: React.FC = () => {
           </div>
         </div>
         <img
-          className="mt-[70px] w-[750px] h-[750px] rotate-[-108.128deg]"
+          className="mt-[70px] max-w-[1000px] max-h-[600px] rotate-[-108.128deg]"
           src={img}
           alt="Img"
         />

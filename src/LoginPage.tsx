@@ -9,7 +9,7 @@ const LoginPage: React.FC = () => {
     setPassVisible((prevVisible) => !prevVisible);
   };
   return (
-    <div className="py-[100px] px-[60px] overflow-hidden">
+    <div className="py-[40px] px-[60px] overflow-hidden">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="203"
@@ -102,7 +102,7 @@ const LoginPage: React.FC = () => {
               background:
                 "linear-gradient(90deg, #E81CFF 5.65%, #E81CFF 5.66%, #45CAFF 97.49%)",
             }}
-            className="cursor-pointer w-[270px] mt-[172px] py-5 px-10 rounded-lg text-2xl leading-1 text-white font-montserrat"
+            className="cursor-pointer w-[270px] mt-[40px] py-5 px-10 rounded-lg text-2xl leading-1 text-white font-montserrat"
             type="submit"
             value="Войти"
           />
@@ -117,7 +117,7 @@ const LoginPage: React.FC = () => {
           </div>
         </div>
         <img
-          className="mt-[-50px] w-[750px] h-[750px] rotate-[-11.683deg]"
+          className="mt-[-50px] max-w-[800px] max-h-[800px] rotate-[-11.683deg]"
           src={img}
           alt="Img"
         />
