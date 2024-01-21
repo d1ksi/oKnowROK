@@ -28,3 +28,25 @@ input[type="checkbox"]:checked {
 .bg-active-light {
    background: var(---, #2F2F2F);
 }
+
+
+.underlining {
+   position: relative;
+   display: inline-block;
+}
+
+.underlining::after {
+   content: '';
+   position: absolute;
+   bottom: -29px;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(90deg, #E81CFF 5.65%, #E81CFF 5.66%, #45CAFF 97.49%);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+
+.underlining:hover::after {
+   opacity: 1;
+}

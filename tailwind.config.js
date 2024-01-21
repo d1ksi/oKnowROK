@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
       },
       colors: {
         '2F2F2F': '#2F2F2F',

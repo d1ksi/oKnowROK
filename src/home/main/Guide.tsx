@@ -1,6 +1,9 @@
+import img from "../../../public/image-removebg-preview.png";
+import { Link } from "react-router-dom";
+
 const Guide: React.FC = () => {
   return (
-    <div className="flex px-24 mb-80">
+    <div className="flex justify-between items-center px-24 mb-80">
       <div>
         <h2 className="z-10 font-montserrat text-5xl font-medium text-[#2F2F2F]">
           Ваш путеводитель в мире <br /> успешного бизнеса <br />
@@ -16,11 +19,14 @@ const Guide: React.FC = () => {
           >
             Попробовать бесплатно
           </button>
-          <button className="rounded-lg border border-[#E81CFF] border-solid py-5 px-10 font-montserrat text-2xl font-semibold">
-            Узнать больше
-          </button>
+          <Link to="/analytics">
+            <button className="rounded-lg border border-[#E81CFF] border-solid py-5 px-10 font-montserrat text-2xl font-semibold">
+              Узнать больше
+            </button>
+          </Link>
         </div>
       </div>
+      <img className="mr-[-50px] w-[750px] h-[627px]" src={img} alt="photo" />
     </div>
   );
 };
