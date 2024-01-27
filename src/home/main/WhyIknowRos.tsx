@@ -15,7 +15,7 @@ const WhyIknowRos: React.FC = () => {
             <h3 className="font-semibold font-montserrat text-[#2F2F2F] text-[28px]">
               Автоматический расчет и аналитика
             </h3>
-            <p className="mt-2 font-normal font-montserrat text-[#2F2F2F] text-xl leading-4">
+            <p className="leading-[26px] mt-2 font-normal font-montserrat text-[#2F2F2F] text-xl leading-4">
               Мы обновляем ваши данные каждые 15 минут, обеспечивая <br />{" "}
               моментальный доступ к актуальной информации.
             </p>
@@ -53,7 +53,7 @@ const WhyIknowRos: React.FC = () => {
             <h3 className="font-semibold font-montserrat text-[#2F2F2F] text-[28px]">
               Разработан селлерами для селлеров
             </h3>
-            <p className="mt-2 font-normal font-montserrat text-[#2F2F2F] text-xl leading-4">
+            <p className="leading-[26px] mt-2 font-normal font-montserrat text-[#2F2F2F] text-xl leading-4">
               Наш сервис создан при активном участии действующих <br />{" "}
               селлеров, которые знают и понимают тонкости маркетплейсов.
             </p>
@@ -91,7 +91,7 @@ const WhyIknowRos: React.FC = () => {
             <h3 className="ml-[10px] font-semibold font-montserrat text-[#2F2F2F] text-[28px]">
               Управление отчетностью в одном месте
             </h3>
-            <p className="ml-[10px] mt-2 font-normal font-montserrat text-[#2F2F2F] text-xl leading-4">
+            <p className="leading-[26px] ml-[10px] mt-2 font-normal font-montserrat text-[#2F2F2F] text-xl leading-4">
               iKnowROS.app позволяет автоматизировать управленческую <br />{" "}
               отчетность, предоставляя полную картину бизнеса в одном <br />{" "}
               удобном месте.
